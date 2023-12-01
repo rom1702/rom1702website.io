@@ -1,0 +1,47 @@
+/* Importing Google fonts */
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto:wght@300&display=swap);
+
+/* Importing component files */
+@import url("components/avatar.css");
+@import url("components/banner.css");
+@import url("components/button.css");
+@import url("components/footer.css");
+@import url("components/container.css");
+@import url("components/card.css");
+
+
+
+/* General style rules for fonts and colors */
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    margin: 0px;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+p{
+    font-size: 14px;
+}
+
+.list{
+    list-style: none;
+    padding-left: 0%;
+}
+.list li{
+    display: inline;
+    padding: 10px;
+}
+.list i{
+    font-size: 50px;
+}
+
